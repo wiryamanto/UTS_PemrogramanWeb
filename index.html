@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Web Pertanian</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Wiryamanto<span> Store</span></a>
+        
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#Manfaat Buah">Manfaat Buah</a>
+            <a href="#Tentang Kami">Tentang Kami</a>
+        </div>
+        <a class="contact" href="#Contact"><button>Contact</button></a>
+    </nav>
+    <!-- end navbar -->
+    <!-- hero -->
+    <header>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Toko Buah IdamanMu</h1>
+          <button>Selengkapnya</button>
+        </div>
+      </div>
+    </header>
+    <!-- end hero -->
+    <!-- content -->
+    <section id="Manfaat Buah" style="margin-top: 10vh;">
+      <h1 class="title">Manfaat Buah</h1>
+      <div class="buah-container">
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla voluptas quisquam expedita, autem itaque modi temporibus tenetur iste fugiat vel delectus. Nam perspiciatis iste nesciunt amet esse quas ex!</p> -->
+        <div class="buah">
+          <img src="./assets/jeruk.jpg" alt="Buah 1">
+          <div class="deskripsi">
+            <h2>Jeruk</h2>
+            <p></p>Manfaat Jeruk</p>
+            <ul>
+              <li>Kaya akan vitamin C yang baik untuk sistem kekebalan tubuh.</li>
+              <li>Mengandung antioksidan yang membantu melawan radikal bebas.</li>
+              <li>Membantu menjaga kesehatan kulit.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="buah">
+          <img src="./assets/apel.jpg" alt="Buah 2">
+          <div class="deskripsi">
+            <h2>Apel</h2>
+            <p>Manfaat Apel</p>
+            <ul>
+              <li>Kaya akan serat yang baik untuk pencernaan dan kesehatan usus.</li>
+              <li>Mengandung antioksidan yang membantu menurunkan risiko penyakit jantung.</li>
+              <li>Dapat membantu menjaga berat badan dan kesehatan gigi.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="buah">
+          <img src="./assets/anggur.jpeg" alt="Buah 3">
+          <div class="deskripsi">
+            <h2>Anggur</h2>
+            <p>Manfaat Anggur</p>
+            <ul>
+              <li>Sumber antioksidan seperti resveratrol yang diyakini memiliki efek perlindungan pada jantung.</li>
+              <li>Bermanfaat bagi kesehatan otak dan pembuluh darah.</li>
+              <li>Mengandung serat yang baik untuk pencernaan.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="buah">
+          <img src="./assets/pisang.jpeg" alt="Buah 4">
+          <div class="deskripsi">
+            <h2>Pisang</h2>
+            <p>Manfaat Pisang</p>
+            <ul>
+              <li>Kaya akan kalium yang mendukung fungsi otot dan jantung.</li>
+              <li>Mengandung vitamin B6 yang membantu metabolisme tubuh.</li>
+              <li>Baik sebagai sumber energi yang cepat.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="buah">
+          <img src="./assets/mangga.jpeg" alt="Buah 5">
+          <div class="deskripsi">
+            <h2>Mangga</h2>
+            <p>Manfaat Mangga</p>
+            <ul>
+              <li>Sumber vitamin C dan A yang baik untuk sistem kekebalan tubuh dan kesehatan mata.</li>
+              <li>Mengandung serat yang membantu pencernaan.</li>
+              <li>Bermanfaat bagi kulit dan kesehatan jantung.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="buah">
+          <img src="./assets/alpukat.jpg" alt="Buah 6">
+          <div class="deskripsi">
+            <h2>Alpukat</h2>
+            <p>Manfaat Alpukat</p>
+            <ul>
+              <li>Mengandung lemak sehat, seperti asam lemak omega-3 dan 6.</li>
+              <li>Kaya akan kalium, yang baik untuk fungsi jantung dan tekanan darah.</li>
+              <li>Membantu penyerapan nutrisi tertentu dan mengandung vitamin E.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+    <!-- tabel -->
+    <table id="Tentang Kami" border="1" cellpadding="10" cellspacing="0" style="width: 100%; margin-top: 15vh; border-collapse: collapse;">
+      <thead style="background-color: #a7a7a7;">
+        <tr>
+          <th colspan="2" style="padding: 15px;">Informasi dan Harga Barang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="text-align: center; background-color: #5e5d5d;">
+          <td rowspan="2">Nama</td>
+          <td>Harga</td>
+        </tr>
+        <tr style="background-color: #f8fc2f;">
+          <td rowspan="2"> Rp. 29000</td>
+        </tr>
+        <tr style="background-color: #f8fc2f;">
+          <td>Apel</td>
+        </tr>
+        <tr style="background-color: #006BFF">
+          <td rowspan="2">Jeruk</td>
+        </tr>
+        <tr style="background-color: #006BFF">
+          <td>Rp. 17000</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- form -->
+    <form id="orderForm">
+      <label for="buah">Pilih Buah:</label><br>
+      <select id="buah" name="buah">
+        <option value="apel">Apel</option>
+        <option value="jeruk">Jeruk</option>
+        <option value="mangga">Mangga</option>
+        <option value="anggur">Anggur</option>
+        <option value="pisang">Pisang</option>
+        <option value="alpukat">Alpukat</option>
+      </select><br>
+      
+      <label for="jumlah">Jumlah:</label><br>
+      <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Masukkan jumlah"><br>
+  
+      <label for="total">Total Harga:</label><br>
+      <input type="text" id="total" name="total" readonly><br>
+  
+      <input type="submit" value="Hitung Total">
+    </form>
+    <!-- footer -->
+    <footer>
+      <ul class="social-icons">
+        <li><a href="https://www.instagram.com/Wiryamanto" target="_blank"><img src="./assets/instagram.png" alt=""></a></li>
+        <li><a href="https://github.com/Wiryamanto" target="_blank"><img src="./assets/github.png" alt=""></a></li>
+      </ul>
+      <p>&copy; 2023 Ragil Wiryamanto.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
